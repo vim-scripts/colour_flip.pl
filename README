@@ -1,0 +1,6 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=405
+
+Ever held visual bell on and thought "gee, that doesn't look too bad?" then spent hours inverting your colourscheme by hand to make a new one?
+Well, stop wasting time.  Just pipe the colourscheme through this here funky perl script, and save the output as your new scheme.  It takes a whole 0.035 seconds to run on a 433Mhz Celeron.  This amounts to a considerable (~102857) amount of time saving!
+It will recognise both RGB and system colour names and do its best to invert them.
+NOTE: it will break on colourscheme files where the highlight commands span multiple lines.  Maybe I'll fix that someday, but then again maybe not.  Feel free to upload a new version which does that.
